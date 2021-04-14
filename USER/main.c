@@ -11,12 +11,12 @@ void usart_recv_send(u8 type);
 int main(void)
 {
     vu8 key = 0;
-    delay_init();												 //延时函数初始化
-    NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2); //设置NVIC中断分组2:2位抢占优先级，2位响应优先级
+    delay_init();												 // 延时函数初始化
+    NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2); // 设置NVIC中断分组2:2位抢占优先级，2位响应优先级
     usart1_init(115200);									 // USART1初始化 波特率115200 默认数据位8 停止位1 校验位none
     usart3_init(115200);									 // USART3初始化 波特率115200 默认数据位8 停止位1 校验位none
-    LED_Init();												 //LED端口初始化
-    KEY_Init();										  	 	 //初始化与按键连接的硬件接口
+    LED_Init();												 // LED端口初始化
+    KEY_Init();										  	 	 // 初始化与按键连接的硬件接口
     while (1)
     {
         // 串口收发
