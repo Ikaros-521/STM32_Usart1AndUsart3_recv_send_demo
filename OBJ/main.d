@@ -34,3 +34,6 @@
 ..\obj\main.o: ..\HARDWARE\KEY\key.h
 ..\obj\main.o: ..\HARDWARE\usart\usart1.h
 ..\obj\main.o: ..\HARDWARE\usart\usart3.h
+..\obj\main.o: D:\KELI\ARM\ARMCC\Bin\..\include\string.h
+..\obj\main.o: D:\KELI\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\main.o: ..\HARDWARE\BEEP\beep.h

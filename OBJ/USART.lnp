@@ -6,6 +6,7 @@
 "..\obj\key.o"
 "..\obj\usart1.o"
 "..\obj\usart3.o"
+"..\obj\beep.o"
 "..\obj\delay.o"
 "..\obj\sys.o"
 "..\obj\core_cm3.o"
