@@ -1,5 +1,5 @@
 Dependencies for Project 'USART', Target 'USART': (DO NOT MODIFY !)
-F (.\main.c)(0x608A2652)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\usart -I ..\HARDWARE\BEEP-I"F:\BaiduNetdiskDownload\【正点原子】精英STM32F103开发板资料 资料盘(A盘)\蓝牙模块\实验4 串口实验2\USER\RTE\_USART"-ID:\KELI\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-ID:\KELI\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+F (.\main.c)(0x6093A3D2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\usart -I ..\HARDWARE\BEEP-I"F:\BaiduNetdiskDownload\【正点原子】精英STM32F103开发板资料 资料盘(A盘)\蓝牙模块\实验4 串口实验2\USER\RTE\_USART"-ID:\KELI\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-ID:\KELI\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
 I (..\HARDWARE\LED\led.h)(0x5510227D)
 I (..\SYSTEM\sys\sys.h)(0x550F951A)
 I (..\USER\stm32f10x.h)(0x4D783CB5)

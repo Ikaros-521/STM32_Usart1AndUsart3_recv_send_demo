@@ -280,6 +280,20 @@ u8 cmd_analysis(u8* buf, u8 len)
 				return 0;
 			}  
         }
+		else if(0 == strcmp((char *)device, "login"))
+        {
+			if(0 == strcmp((char *)status, "out"))
+			{
+				login = 0;
+				printf("ÕËºÅµÇ³ö\r\n");
+				return 1;
+			}
+			else
+			{
+				printf("ÃüÁî´íÎó\r\n");
+				return 0;
+			}  
+        }
 		else
 		{
 			printf("ÃüÁî´íÎó\r\n");
